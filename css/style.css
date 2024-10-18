@@ -5,6 +5,7 @@
     --addtext-color:#757575;
     --title-color:#FFF;
     --team-beckground:#F5F4FA;
+    --clients-background:#F5F4FA;
     --footer-beckground:#2F303A;
     --footer-number:rgba(255, 255, 255, 0.60);
 
@@ -318,8 +319,50 @@ font-weight: 400;
 line-height: 1.18;
 letter-spacing: 0.48px;
 }
+
+.team-ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 16px;
+}
+
+.team-svg{
+    width: 20px;
+    height: 20px;
+    fill: blue;
+}
+
+.team-link{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 /* ================== */
     
+
+.clients {
+    background-color: var(--clients-beckground);
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.clients-title {
+    color: var(--text-color);
+text-align: center;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.19;
+letter-spacing: 1.08px;
+padding-bottom: 50px;
+}
 
 .footer {
     background-color: var(--footer-beckground);
@@ -356,6 +399,7 @@ letter-spacing: 0.42px;
   flex-direction: column;
   gap: 9px;
 }
+
 
 .portfolio {
     padding-top: 94px;
@@ -428,5 +472,100 @@ font-weight: 400;
 line-height: 30px; 
 letter-spacing: 0.48px;
 }
+
+.icon-clients{
+    width: 106px;
+    height: 60px;
+    fill: #afb1b8;
+}
+
+.ul-clients{
+    display: flex;
+    gap: 10px;
+    
+}
+
+.a-clients{
+    width: 170px;
+    height: 92px;
+    border-radius: 4px;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.a-clients:hover,
+.a-clients:focus{
+ border: none;
+ outline: 0px solid #2196F3;
+ border-radius: 50%;
+ background-color: #2196F3;
+   
+
+}
+
+.h3-footer-join{
+    color: var(--title-color);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700px;
+    line-height: 1.14px;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.ul-footer-join{
+    display: flex;
+    gap: 10px;
+}
+
+.icon-footer-join{
+    width: 20px;
+    height: 20px;
+    fill: #FFFFFF;
+}
+
+.a-footer-join{
+    background-color: rgba(255, 255, 255, 0.10);
+    border-radius: 50%;
+    padding: 12px 12px 12px 12px;
+}
+
+
+.a-footer-join{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+
+.a-footer-join:focus{
+    background: #2196F3;
+    border-radius: 60%;
+}
+
+
+.a-footer-join:hover{
+    background: #2196F3;
+    border-radius: 60%;
+}
+
+.footercontainer{
+   
+}
+
+
+
+
+
+
+
+
 
 
