@@ -479,6 +479,29 @@ letter-spacing: 0.48px;
     fill: #afb1b8;
 }
 
+.team-ul{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.team-app{
+    align-items: center;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+.team-link:hover,
+.team-link:focus{
+    background-color: var(--accent-color);
+    .team-svg{
+        fill: red;
+    }
+}
+
+
+
 .ul-clients{
     display: flex;
     gap: 10px;
@@ -502,7 +525,6 @@ letter-spacing: 0.48px;
  outline: 0px solid #2196F3;
  border-radius: 50%;
  background-color: #2196F3;
-   
 
 }
 
@@ -556,9 +578,6 @@ letter-spacing: 0.48px;
     border-radius: 60%;
 }
 
-.footercontainer{
-   
-}
 
 
 
