@@ -311,7 +311,34 @@ letter-spacing: 1.08px;
 margin-bottom: 50px;
    }
 
+.service-container {
+    display: flex;
+    justify-content: space-between;
+}
 
+.service-item {
+    position: relative;
+    width: 30%; 
+}
+
+.service-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.service-label {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6); /* Напівпрозорий чорний фон */
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 17px; 
+    
+}
 
 /* ================================== */
 
