@@ -42,6 +42,12 @@
   </nav>
 
   </ul>
+
+
+
+
+
+
   </div>
 </header>
 
@@ -53,6 +59,39 @@
     <button type="button" class="hero-btn">Замовити послугу</button>
   </div>
   </section>
+
+
+
+
+<!-- Бекдроп з модальним вікном -->
+<div class="backdrop is-hidden" data-modal>
+  <div class="modal">
+    <button class="close-btn" data-modal-close>&times;</button>
+    <form>
+      <label for="name">Ім'я</label>
+      <input type="text" id="name" placeholder="Ваше ім'я">
+      
+      <label for="phone">Телефон</label>
+      <input type="tel" id="phone" placeholder="+38 XXX XXX XX XX">
+      
+      <label for="email">Пошта</label>
+      <input type="email" id="email" placeholder="email@example.com">
+      
+      <label for="comment">Коментар</label>
+      <textarea id="comment" placeholder="Введіть текст"></textarea>
+      
+      <div class="checkbox-container">
+        <input type="checkbox" id="terms">
+        <label for="terms">Погоджуюся з умовами договору</label>
+      </div>
+      
+      <button type="submit" class="submit-btn">Відправити</button>
+    </form>
+  </div>
+</div>
+
+<!-- -------------------------------- -->
+ 
   <!-- секція рішення -->
    <section class="decision">
     <div class="container">
