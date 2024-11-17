@@ -1,0 +1,142 @@
+.team {
+    background-color: var(--team-beckground);
+  padding-top: 94px;
+  padding-bottom: 94px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+
+  &__img {
+    width: 270px;
+}
+
+
+&__list {
+    display: flex;
+    gap: 30px;
+}
+
+
+&__item {
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
+}
+
+
+&__box {
+   padding-top: 30px;
+   padding-bottom: 30px;
+   background-color: #FFF;
+   border-radius: 0px 0px 4px 4px;
+}
+
+
+&__title {
+    color: var(--text-color);
+text-align: center;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.16;
+letter-spacing: 1.08px;
+margin-bottom: 50px;
+}
+
+
+&__nam {
+    color: var(--text-color);
+ text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.48px;
+    margin-bottom: 10px;
+}
+
+
+&__text {
+    color: var(--addtext-color);
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.18;
+letter-spacing: 0.48px;
+}
+
+
+&__ul{
+    display: inline-block;
+    gap: 10px;
+    margin-top: 16px;
+}
+
+&__svg{
+    width: 20px;
+    height: 20px;
+    fill: blue;
+}
+
+
+&__link{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+&__ul{
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+&__app{
+    align-items: center;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+
+&__link:hover,
+&__link:focus{
+    background-color: var(--accent-color);
+    .team-svg{
+        fill: white;
+    }
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

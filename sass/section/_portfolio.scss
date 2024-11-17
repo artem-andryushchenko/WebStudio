@@ -1,0 +1,96 @@
+.portfolio {
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+
+    &__list {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+
+&__button {
+color: var(--main-background);
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px; 
+letter-spacing: 0.48px;
+padding: 6px 22px;
+border-radius: 4px;
+background-color: #F5F4FA;
+border: none;
+}
+
+
+&__button:hover {
+    background-color: var(--accent-color);
+    color: #FFF;
+    box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
+
+}
+
+
+&__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    gap: 30px;
+}
+
+
+
+&__box {
+    padding: 20px 24px;
+    
+}
+
+
+
+&__img {
+    width: 100%;
+}
+
+
+&__item {
+color: var(--main-background);
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 1.08px;
+border: 1px solid #EEE;
+flex-basis: calc((100% - 60px) / 3);
+}
+
+
+&__item:hover {
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
+}
+
+
+&__text {
+color: var(--addtext-color);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; 
+letter-spacing: 0.48px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

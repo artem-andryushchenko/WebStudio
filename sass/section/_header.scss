@@ -1,0 +1,218 @@
+body {
+
+    font-family: "Roboto";
+   
+   }
+
+
+.header {
+    padding-top: 24px;
+    padding-bottom: 25px;
+
+
+    &__box {
+    display: flex;
+   align-items: center;
+}
+
+
+&__logo  {
+color: var(--logo-color);
+font-family: "Raleway";
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.38;
+letter-spacing: 0.78px;
+margin-right: 93px;
+}
+
+
+&__color  {
+color: var(--accent-color);
+font-family: "Raleway";
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.38;
+letter-spacing: 0.78px;
+}
+
+
+&__color   {
+color: var(--accent-color);
+color: #2196F3;
+font-family: "Raleway";
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.38;
+letter-spacing: 0.78px;
+}
+
+
+&__logo {
+color: var(--logo-color);
+color: #FFF;
+font-family: "Raleway";
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.38;
+letter-spacing: 0.78px;
+}
+
+
+&__nav{
+    margin-left: 93px;
+    margin-right: auto;
+    display: flex;
+    gap: 50px;
+}
+
+
+&__lis {
+    display: flex;
+    gap: 50px;
+}
+
+
+&__list {
+    display: flex;
+    gap: 50px;
+    margin-left: auto;
+}
+
+
+
+&__item{
+    display: flex;
+    align-items: center;
+}
+
+
+&__item:hover{
+    color: var(--accent-color);
+    .headersvg{
+        fill: #2196F3;
+    }
+}
+
+&__link:hover{
+    color: var(--accent-color);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+
+
+&__link{
+    color: var(--addtext-color);
+     font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+&__list{
+ display: flex;
+ gap: 50px;
+}
+
+&__svg{
+    fill: red;
+}
+
+
+&__item:first-child &__svg{
+    width: 16px;
+    height: 12px;
+}
+
+
+&__svg:last-child{
+    width: 10px;
+    height: 16px;
+}
+
+
+&__lin {
+ color: var(--text-color);  
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: 0.28px;
+}
+
+.ective {
+    color: var(--accent-color);
+}
+
+
+&__lin:hover,  &__lin:focus {
+color: var(--accent-color);
+
+}
+
+
+&__link {
+color: var(--addtext-color);
+font-size: 14px;
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: 0.28px;
+}
+
+
+&__link:hover {
+    color: var(--accent-color);
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

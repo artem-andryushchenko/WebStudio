@@ -1,0 +1,66 @@
+.services {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    
+
+    &__list{
+    display: flex;
+    gap: 30px;
+}
+
+
+
+   &__title {
+color: var(--text-color);
+text-align: center;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.16;
+letter-spacing: 1.08px;
+margin-bottom: 50px;
+   }
+
+
+   &__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+&__item {
+    position: relative;
+    width: 30%; 
+}
+
+
+&__item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+&__label {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6); /* Напівпрозорий чорний фон */
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 17px; 
+    
+}
+}
+
+
+
+
+
+
+
+
+
+
