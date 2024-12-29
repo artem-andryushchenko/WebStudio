@@ -48,7 +48,7 @@ letter-spacing: 0.78px;
 }
 
 
-&__lis {
+&__list {
     display: flex;
     gap: 50px;
 }
@@ -75,17 +75,15 @@ letter-spacing: 0.78px;
     }
 }
 
-&__link:hover{
+&__linke:hover{
     color: var(--accent-color);
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    letter-spacing: 0.28px;
+    .header__svg{
+        fill: var(--accent-color);
+    }
 }
 
 
-&__link{
+&__linke{
     color: var(--addtext-color);
      font-size: 14px;
     font-style: normal;
@@ -104,20 +102,23 @@ letter-spacing: 0.78px;
 }
 
 &__svg{
-    fill: red;
-}
-
-
-&__item:first-child &__svg{
+    fill: var(--addtext-color);
     width: 16px;
-    height: 12px;
+  height: 12px;
 }
 
-
-&__svg:last-child{
-    width: 10px;
+&__item:last-child{
+    .header__svg{
+         width: 10px;
     height: 16px;
+    }
 }
+
+// &__item:first-child &__svg{
+//     width: 16px;
+//     height: 12px;
+// }
+
 
 
 &__lin {

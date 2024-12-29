@@ -74,7 +74,7 @@ letter-spacing: 0.48px;
 
 
 &__ul{
-    display: inline-block;
+    display: flex;
     gap: 10px;
     margin-top: 16px;
 }
@@ -82,7 +82,7 @@ letter-spacing: 0.48px;
 &__svg{
     width: 20px;
     height: 20px;
-    fill: blue;
+    fill: #757575;
 }
 
 

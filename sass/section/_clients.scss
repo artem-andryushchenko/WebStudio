@@ -21,20 +21,21 @@ letter-spacing: 1.08px;
 
 
 
-    &__clientser{
+    &__ikon{
     width: 106px;
     height: 60px;
     fill: #afb1b8;
 }
 
-&__clientsss{
+&__list{
     display: flex;
-    gap: 10px;
+    gap: 30px;
+    margin-top: 50px;
     
 }
 
 
-&__clientsssa{
+&__link{
     width: 170px;
     height: 92px;
     border-radius: 4px;
@@ -46,12 +47,13 @@ letter-spacing: 1.08px;
 }
 
 
-&__clientsssa:hover,
-&__clientsssa:focus{
+&__link:hover,
+&__link:focus{
  border: none;
- outline: 0px solid #2196F3;
- border-radius: 50%;
- background-color: #2196F3;
+ outline: 1px solid #2196F3;
+.clients__ikon{
+  fill: #2196F3;
+}
 
 }
 }
