@@ -1,64 +1,50 @@
-body {
+.work {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  text-align: center;
+  display: none;
 
-    font-family: "Roboto";
-   
-   }
+  @media screen and (min-width: 1200px) {
+    display: block;
+  }
 
-.services {
-    padding-top: 94px;
-    padding-bottom: 94px;
-    
-
-    &__list{
+  &__title {
+    color: $text-color;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 1.08px;
+    margin-bottom: 50px;
+  }
+  &__list {
     display: flex;
     gap: 30px;
-}
+  }
 
-
-
-   &__title {
-color: var(--text-color);
-text-align: center;
-font-size: 36px;
-font-style: normal;
-font-weight: 700;
-line-height: 1.16;
-letter-spacing: 1.08px;
-margin-bottom: 50px;
-   }
-
-
-   &__container {
-    display: flex;
-    justify-content: space-between;
-}
-
-
-&__item {
+  &__item {
     position: relative;
-    width: 30%; 
-}
+  }
 
-
-&__item img {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-
-
-&__label {
+  &__wrap {
+    padding-top: 27px;
+    padding-bottom: 27px;
+    background-color: rgba(47, 48, 58, 0.8);
     position: absolute;
     bottom: 0;
     left: 0;
-    right: 0;
-    background-color: rgba(0, 0, 0, 0.6); /* Напівпрозорий чорний фон */
-    color: #ffffff;
+    width: 100%;
+  }
+
+  &__deck {
+    color: $title-color;
     text-align: center;
-    padding: 10px 0;
-    font-size: 20px; 
-    
-}
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+  }
 }
 
 
